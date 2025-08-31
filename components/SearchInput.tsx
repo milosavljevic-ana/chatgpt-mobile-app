@@ -23,6 +23,7 @@ const SearchInput = ({ sendMessage, status }: SearchInputProps) => {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'flex-end',
+        backgroundColor: COLORS.white,
         gap: 8,
       }}
     >

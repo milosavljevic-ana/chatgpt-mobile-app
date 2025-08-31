@@ -70,7 +70,7 @@ export default function HomeScreen() {
   }
 
   return (
-    <SafeAreaView style={{ height: '100%' }}>
+    <SafeAreaView style={{ height: '100%', backgroundColor: COLORS.white }}>
       <KeyboardAvoidingView
         style={{ flex: 1 }}
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}

@@ -21,6 +21,7 @@ const Navigation = ({ isChatStarted }: NavigationProps) => {
         gap: 8,
         alignItems: 'center',
         paddingTop: 8,
+        backgroundColor: COLORS.white,
         justifyContent: 'space-between',
         paddingHorizontal: 8,
       }}
